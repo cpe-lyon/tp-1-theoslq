@@ -50,9 +50,20 @@ Malgré la suppression d’original, lien_phy garde le text qu’original avait 
 19. la commande est : getent passwd | wc -l.
 20. man -k conversion | wc -l : on trouve 141 pages ou conversion est ecrit dedans
 21. find -name passwd
-22. 
-23.  
+22. find / -name passwd > ~/list_passwd_files.txt i2> /dev/null
+23. grep --r ls --alF
+24. locate history.log
+25. touch fichiertest.txt  
+    locate fichiertest.txt  
+    il n'apparait pas car on est deja dans le dossier ou se trouve le fichier créé.  
 
 **Exercice 3 : Prise en main de l’interpréteur de commandes** 
 
-1.
+1. cp syslog ~
+2. alt+r, on cherche kernel, puis on remplace par noyau
+3. on selection les 10 lignes à l'aide de ctrl+a, ensuite ctrl+k pour couper et enfin ctrl+u a la fin du fichier pour coller
+4. ctrl+u
+5. ctrl+s et enfin ctrl+x pour sortir du fichier
+
+**Exercice 4 : Personnalisation du shell** 
+
