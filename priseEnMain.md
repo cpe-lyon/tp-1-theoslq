@@ -67,3 +67,11 @@ Malgré la suppression d’original, lien_phy garde le text qu’original avait 
 
 **Exercice 4 : Personnalisation du shell** 
 
+1. cp ~/.bashrc. .bashrc_bak
+2. nano .bashrc_bak
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/97438358/194752745-ba223823-c2ed-420b-93a1-9716e7ad0919.png">  
+ ctrl+s, ctrl+x
+3. source .bashrc  <img width="134" alt="image" src="https://user-images.githubusercontent.com/97438358/194752789-4c845bd1-0970-4e72-8a81-71b0b19baff6.png"> 
+4.  <img width="120" alt="image" src="https://user-images.githubusercontent.com/97438358/194753236-b5fcb70c-68e9-485e-ac2d-59a0920e89fc.png">  
+    <img width="705" alt="image" src="https://user-images.githubusercontent.com/97438358/194753250-2878c7a0-f276-4917-9fcf-eba1349b5599.png">
+
